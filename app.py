@@ -11,10 +11,10 @@ from googleapiclient.discovery import build
 
 import os
 
-YT_API_KEY = 'AIzaSyB-3szNHk1VEIADJUWzSbkBvsyKuPy2-9I'
+YT_API_KEY = "Your Youtube Data API Key"
 
 
-os.environ['OPEN_API_KEY'] = "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"
+os.environ['OPEN_API_KEY'] = "YOUR OPEN AI API KEY"
 
 chatllm = ChatOpenAI(openai_api_key=os.environ.get("OPEN_API_KEY"), 
                      temperature=0.6, model='gpt-3.5-turbo')
