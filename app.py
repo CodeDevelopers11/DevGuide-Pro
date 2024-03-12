@@ -63,7 +63,8 @@ with col1:
     st.write("Find your Path, Roadmaps, Video Recomendations and Developer Blogs tosolve your learning problems")
 
 with col2:
-    st.image('Image.jpg ')
+    # st.image('Image.jpg ')
+    st.write("OKAY LOOT AT THIS")
 
 # Input box for user input
 user_input = st.text_input('Enter Project or Skill You Want To Learn', key = 'user_input')
